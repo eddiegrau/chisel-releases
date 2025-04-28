@@ -1,12 +1,12 @@
-package: libqt6core5t64
+package: libqt6core6t64
 
 essential:
-  - libqt6core5t64_copyright
+  - libqt6core6t64_copyright
 
 slices:
   copyright:
     contents:
-      /usr/share/doc/libqt6core5t64/copyright:
+      /usr/share/doc/libqt6core6t64/copyright:
 
   libs:
     contents:
@@ -26,4 +26,4 @@ slices:
 
   doc:
     contents:
-      /usr/share/doc/libqt6core5t64/**:
+      /usr/share/doc/libqt6core6t64/**:

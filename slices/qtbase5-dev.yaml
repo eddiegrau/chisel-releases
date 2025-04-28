@@ -19,7 +19,7 @@ slices:
       /usr/lib/*-linux-*/qt6/bin/*:
       /usr/lib/*-linux-*/qt6/mkspecs/**:
     essential:
-      - libqt6core5t64_libs
+      - libqt6core6t64_libs
 
   doc:
     contents:

@@ -1,12 +1,12 @@
-package: libqt6printsupport5t64
+package: libqt6printsupport6
 
 essential:
-  - libqt6printsupport5t64_copyright
+  - libqt6printsupport6_copyright
 
 slices:
   copyright:
     contents:
-      /usr/share/doc/libqt6printsupport5t64/copyright:
+      /usr/share/doc/libqt6printsupport6/copyright:
 
   libs:
     contents:
@@ -16,7 +16,7 @@ slices:
       - libc6_libs
       - libgcc-s1_libs
       - libglib2.0-0t64_libs
-      - libqt6core5t64_libs
-      - libqt6dbus5t64_libs
+      - libqt6core6t64_libs
+      - libqt6dbus6_libs
       - libstdc++6_libs
       - zlib1g_libs

@@ -1,12 +1,12 @@
-package: libqt6gui5t64
+package: libqt6gui6
 
 essential:
-  - libqt6gui5t64_copyright
+  - libqt6gui6_copyright
 
 slices:
   copyright:
     contents:
-      /usr/share/doc/libqt6gui5t64/copyright:
+      /usr/share/doc/libqt6gui6/copyright:
 
   libs:
     contents:
@@ -30,9 +30,9 @@ slices:
       - libharfbuzz0b_libs
       - libmd4c0_libs
       - libpng16-16t64_libs
-      - libqt6core5t64_libs
-      - libqt6dbus5t64_libs
-      - libqt6network5t64_libs
+      - libqt6core6t64_libs
+      - libqt6dbus6_libs
+      - libqt6network6_libs
       - libstdc++6_libs
       - libudev1_libs
       - libx11-6_libs

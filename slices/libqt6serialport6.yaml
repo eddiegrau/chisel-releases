@@ -1,12 +1,12 @@
-package: libqt6serialport5
+package: libqt6serialport6
 
 essential:
-  - libqt6serialport5_copyright
+  - libqt6serialport6_copyright
 
 slices:
   copyright:
     contents:
-      /usr/share/doc/libqt6serialport5/copyright:
+      /usr/share/doc/libqt6serialport6/copyright:
 
   libs:
     contents:
@@ -14,6 +14,6 @@ slices:
     essential:
       - libc6_libs
       - libgcc-s1_libs
-      - libqt6core5t64_libs
+      - libqt6core6t64_libs
       - libstdc++6_libs
       - libudev1_libs

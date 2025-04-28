@@ -1,12 +1,12 @@
-package: libqt6network5t64
+package: libqt6network6
 
 essential:
-  - libqt6network5t64_copyright
+  - libqt6network6_copyright
 
 slices:
   copyright:
     contents:
-      /usr/share/doc/libqt6network5t64/copyright:
+      /usr/share/doc/libqt6network6/copyright:
 
   libs:
     contents:
@@ -19,7 +19,7 @@ slices:
       - libgcc-s1_libs
       - libglib2.0-0t64_libs
       - libgssapi-krb5-2_libs
-      - libqt6core5t64_libs
-      - libqt6dbus5t64_libs
+      - libqt6core6t64_libs
+      - libqt6dbus6_libs
       - libstdc++6_libs
       - zlib1g_libs
