@@ -10,10 +10,8 @@ slices:
 
   libs:
     contents:
-      /usr/lib/*-linux-*/libqt6EglFS*.so*:
-      /usr/lib/*-linux-*/libqt6Gui.so*:
-      /usr/lib/*-linux-*/libqt6XcbQpa.so*:
-      /usr/lib/*-linux-*/qt6/plugins/egldeviceintegrations/libqeglfs*.so*:
+      /usr/lib/*-linux-*/libQt6Gui.so*:
+      /usr/lib/*-linux-*/libQt6XcbQpa.so*:
       /usr/lib/*-linux-*/qt6/plugins/generic/**:
       /usr/lib/*-linux-*/qt6/plugins/imageformats/**:
       /usr/lib/*-linux-*/qt6/plugins/platforminputcontexts/**:
