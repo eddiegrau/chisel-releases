@@ -10,7 +10,7 @@ slices:
 
   libs:
     contents:
-      /usr/lib/*-linux-*/libqt6Network.so*:
+      /usr/lib/*-linux-*/libQt6Network.so*:
       /usr/lib/*-linux-*/qt6/plugins/bearer/libqconnmanbearer.so*:
       /usr/lib/*-linux-*/qt6/plugins/bearer/libqgenericbearer.so*:
       /usr/lib/*-linux-*/qt6/plugins/bearer/libqnmbearer.so*:

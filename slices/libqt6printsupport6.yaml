@@ -10,7 +10,7 @@ slices:
 
   libs:
     contents:
-      /usr/lib/*-linux-*/libqt6PrintSupport.so*:
+      /usr/lib/*-linux-*/libQt6PrintSupport.so*:
       /usr/lib/*-linux-*/qt6/plugins/printsupport/libcupsprintersupport.so*:
     essential:
       - libc6_libs

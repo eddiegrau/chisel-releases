@@ -12,7 +12,6 @@ slices:
     contents:
       /usr/bin/qtcreator:
     essential:
-      - qtbase5-dev_core
       - qtcreator_libs
       - qtcreator_plugins
 
@@ -20,6 +19,9 @@ slices:
     contents:
       /usr/lib/*-linux-*/qtcreator/**:
       /usr/libexec/qtcreator/**:
+    essential:
+      - libqt6core6t64_libs
+      - libqt6gui6_libs
 
   plugins:
     contents:

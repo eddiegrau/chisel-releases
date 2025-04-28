@@ -10,7 +10,7 @@ slices:
 
   libs:
     contents:
-      /usr/lib/*-linux-*/libqt6Widgets.so*:
+      /usr/lib/*-linux-*/libQt6Widgets.so*:
     essential:
       - libc6_libs
       - libgcc-s1_libs
