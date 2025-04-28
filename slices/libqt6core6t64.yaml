@@ -10,7 +10,7 @@ slices:
 
   libs:
     contents:
-      /usr/lib/*-linux-*/libqt6Core.so*:
+      /usr/lib/*-linux-*/libQt6Core.so*:
     essential:
       - libc6_libs
       - libdouble-conversion3_libs
