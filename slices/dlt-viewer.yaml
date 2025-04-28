@@ -26,6 +26,7 @@ slices:
       /usr/lib/*-linux-*/libqdlt.so*:
     essential:
       - libc6_libs
+      - libegl1_libs
       - libgcc-s1_libs
       - libqt6core6t64_libs
       - libqt6gui6_libs
