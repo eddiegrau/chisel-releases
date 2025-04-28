@@ -1,22 +1,22 @@
-package: libqt5printsupport5t64
+package: libqt6printsupport5t64
 
 essential:
-  - libqt5printsupport5t64_copyright
+  - libqt6printsupport5t64_copyright
 
 slices:
   copyright:
     contents:
-      /usr/share/doc/libqt5printsupport5t64/copyright:
+      /usr/share/doc/libqt6printsupport5t64/copyright:
 
   libs:
     contents:
-      /usr/lib/*-linux-*/libQt5PrintSupport.so*:
-      /usr/lib/*-linux-*/qt5/plugins/printsupport/libcupsprintersupport.so*:
+      /usr/lib/*-linux-*/libqt6PrintSupport.so*:
+      /usr/lib/*-linux-*/qt6/plugins/printsupport/libcupsprintersupport.so*:
     essential:
       - libc6_libs
       - libgcc-s1_libs
       - libglib2.0-0t64_libs
-      - libqt5core5t64_libs
-      - libqt5dbus5t64_libs
+      - libqt6core5t64_libs
+      - libqt6dbus5t64_libs
       - libstdc++6_libs
       - zlib1g_libs

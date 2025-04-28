@@ -1,24 +1,24 @@
-package: libqt5gui5t64
+package: libqt6gui5t64
 
 essential:
-  - libqt5gui5t64_copyright
+  - libqt6gui5t64_copyright
 
 slices:
   copyright:
     contents:
-      /usr/share/doc/libqt5gui5t64/copyright:
+      /usr/share/doc/libqt6gui5t64/copyright:
 
   libs:
     contents:
-      /usr/lib/*-linux-*/libQt5EglFS*.so*:
-      /usr/lib/*-linux-*/libQt5Gui.so*:
-      /usr/lib/*-linux-*/libQt5XcbQpa.so*:
-      /usr/lib/*-linux-*/qt5/plugins/egldeviceintegrations/libqeglfs*.so*:
-      /usr/lib/*-linux-*/qt5/plugins/generic/**:
-      /usr/lib/*-linux-*/qt5/plugins/imageformats/**:
-      /usr/lib/*-linux-*/qt5/plugins/platforminputcontexts/**:
-      /usr/lib/*-linux-*/qt5/plugins/platforms/libq*.so*:
-      /usr/lib/*-linux-*/qt5/plugins/xcbglintegrations/libqxcb-*-integration.so*:
+      /usr/lib/*-linux-*/libqt6EglFS*.so*:
+      /usr/lib/*-linux-*/libqt6Gui.so*:
+      /usr/lib/*-linux-*/libqt6XcbQpa.so*:
+      /usr/lib/*-linux-*/qt6/plugins/egldeviceintegrations/libqeglfs*.so*:
+      /usr/lib/*-linux-*/qt6/plugins/generic/**:
+      /usr/lib/*-linux-*/qt6/plugins/imageformats/**:
+      /usr/lib/*-linux-*/qt6/plugins/platforminputcontexts/**:
+      /usr/lib/*-linux-*/qt6/plugins/platforms/libq*.so*:
+      /usr/lib/*-linux-*/qt6/plugins/xcbglintegrations/libqxcb-*-integration.so*:
     essential:
       - libc6_libs
       - libdrm2_libs
@@ -30,9 +30,9 @@ slices:
       - libharfbuzz0b_libs
       - libmd4c0_libs
       - libpng16-16t64_libs
-      - libqt5core5t64_libs
-      - libqt5dbus5t64_libs
-      - libqt5network5t64_libs
+      - libqt6core5t64_libs
+      - libqt6dbus5t64_libs
+      - libqt6network5t64_libs
       - libstdc++6_libs
       - libudev1_libs
       - libx11-6_libs

@@ -1,16 +1,16 @@
-package: libqt5core5t64
+package: libqt6core5t64
 
 essential:
-  - libqt5core5t64_copyright
+  - libqt6core5t64_copyright
 
 slices:
   copyright:
     contents:
-      /usr/share/doc/libqt5core5t64/copyright:
+      /usr/share/doc/libqt6core5t64/copyright:
 
   libs:
     contents:
-      /usr/lib/*-linux-*/libQt5Core.so*:
+      /usr/lib/*-linux-*/libqt6Core.so*:
     essential:
       - libc6_libs
       - libdouble-conversion3_libs
@@ -26,4 +26,4 @@ slices:
 
   doc:
     contents:
-      /usr/share/doc/libqt5core5t64/**:
+      /usr/share/doc/libqt6core5t64/**:
