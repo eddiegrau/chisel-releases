@@ -32,7 +32,7 @@ slices:
       - libqt6network6_libs
       - libqt6printsupport6_libs
       - libqt6serialport6_libs
-      - libqt6widgets6t64_libs
+      - libqt6widgets6_libs
       - libstdc++6_libs
       - qtcreator_libs
 

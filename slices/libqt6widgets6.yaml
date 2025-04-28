@@ -1,12 +1,12 @@
-package: libqt6widgets6t64
+package: libqt6widgets6
 
 essential:
-  - libqt6widgets6t64_copyright
+  - libqt6widgets6_copyright
 
 slices:
   copyright:
     contents:
-      /usr/share/doc/libqt6widgets6t64/copyright:
+      /usr/share/doc/libqt6widgets6/copyright:
 
   libs:
     contents:
