@@ -6,7 +6,7 @@ essential:
 slices:
   copyright:
     contents:
-      /usr/share/doc/libQt6DBus6/copyright:
+      /usr/share/doc/libqt6dbus6/copyright:
 
   libs:
     contents:
