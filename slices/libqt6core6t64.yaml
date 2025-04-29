@@ -12,6 +12,7 @@ slices:
     contents:
       /usr/lib/*-linux-*/libQt6Core.so*:
     essential:
+      - libb2-1_libs
       - libc6_libs
       - libdouble-conversion3_libs
       - libgcc-s1_libs
