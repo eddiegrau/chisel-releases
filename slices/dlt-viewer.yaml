@@ -35,7 +35,9 @@ slices:
       - libqt6serialport6_libs
       - libqt6widgets6_libs
       - libstdc++6_libs
+      - libxkbcommon0_libs
       - qtcreator_libs
+      - zlib1g_libs
 
   plugins:
     contents:
