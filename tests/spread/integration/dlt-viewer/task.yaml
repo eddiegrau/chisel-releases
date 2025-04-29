@@ -7,6 +7,6 @@ execute: |
 
   export QT_QPA_PLATFORM=offscreen
 
-  chroot "$rootfs" dlt-viewer -csv -s -c testfile.dlt output.csv
+  chroot "$rootfs" dlt-viewer -csv -s -t -c output.csv testfile.dlt
 
   test -f ${rootfs}/output.csv
