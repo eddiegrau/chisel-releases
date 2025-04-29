@@ -28,6 +28,7 @@ slices:
       - libc6_libs
       - libegl1_libs
       - libgcc-s1_libs
+      - libopengl0_libs
       - libqt6core6t64_libs
       - libqt6gui6_libs
       - libqt6network6_libs
