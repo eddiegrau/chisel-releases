@@ -1,0 +1,17 @@
+package: libxv1
+
+essential:
+  - libxv1_copyright
+
+slices: 
+  libs:
+    contents:
+      /usr/lib/*-linux-*/libXv.so*:
+    essential:
+      - libc6_libs
+      - libx11-6_libs
+      - libxext6_libs
+
+  copyright:
+    contents:
+      /usr/share/doc/libxv1/copyright:
