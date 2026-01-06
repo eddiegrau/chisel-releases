@@ -3,7 +3,7 @@ package: libavfilter9
 essential:
   - libavfilter9_copyright
 
-slices: 
+slices:
   libs:
     contents:
       /usr/lib/*-linux-*/libavfilter.so*:
@@ -24,19 +24,18 @@ slices:
       - libplacebo338_libs
       - libpostproc57_libs
       - librubberband2_libs
-      - libsphinxbase3t64_libs
       - libstdc++6_libs
       - libswresample4_libs
       - libswscale7_libs
       - libva2_libs
       - libvidstab1.1_libs
-      # needed for: amd64
       - libzimg2_libs
       - libzmq5_libs
       - ocl-icd-libopencl1_libs
       - zlib1g_libs
     v3-essential:
       libpocketsphinx3_libs: {arch: [amd64, arm64, armhf, ppc64el, riscv64]}
+      libsphinxbase3t64_libs: {arch: [amd64, arm64, armhf, ppc64el, riscv64]}
       libvpl2_libs: {arch: [amd64]}
 
   copyright:

@@ -3,7 +3,7 @@ package: liblapack3
 essential:
   - liblapack3_copyright
 
-slices: 
+slices:
   libs:
     contents:
       /usr/lib/*-linux-*/lapack/liblapack.so*:
