@@ -1,0 +1,12 @@
+summary: Integration tests for ffgmpeg
+
+execute: |
+  rootfs="$(install-slices ffmpeg_bins)"
+
+  chroot "${rootfs}/" ffmpeg -version
+  chroot "${rootfs}/" ffmpeg -formats
+  chroot "${rootfs}/" ffmpeg -codecs
+  chroot "${rootfs}/" ffmpeg -filters
+  chroot "${rootfs}/" ffmpeg -protocols
+  chroot "${rootfs}/" ffmpeg -encoders
+  chroot "${rootfs}/" ffmpeg -decoders
